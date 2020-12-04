@@ -1,0 +1,81 @@
+/* Write some CSS below */
+
+body {
+	margin: 0;
+}
+
+.banner {
+    background:linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.70)), url(images/cribon2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 45px;
+	margin: 100;
+	font-weight: bold;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+  opacity: 0.85;
+}
+
+a {
+   background-color: black;
+   color: white;
+   padding: 16px 48px;
+   border-radius: 20px;
+   display: inline-block;
+   text-decoration: none;
+   transition: .3s;
+   font-size: 20px;
+   font-weight: bold;
+   border: none;
+}
+
+a:hover {
+background-color: #EBDEF0;
+color:black;
+}
+
+.cards-wrap { 
+   width: 860px;
+   margin: 60px auto;
+}
+
+.cards-container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;      
+}
+
+.card {
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 0px 20px;
+
+}
+
+.card img{
+  width: 200px;
+  height: 200px;
+ 
+ }
+ footer p {
+ 	background: #3b0808;
+ 	color: white;
+ 	padding: 30px 50px;
+ 	position: bottom;
+ 	bottom: 0;
+ 	left: 0px;
+ 	right: 0px;
+ 	margin: 0;
+ }
